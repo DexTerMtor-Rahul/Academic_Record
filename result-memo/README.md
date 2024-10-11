@@ -1,8 +1,18 @@
-# React + Vite
+## Running a Node.js Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Using npm
 
-Currently, two official plugins are available:
+1. **Install dependencies:**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+   - If your project has a `package.json` file, you can install the necessary dependencies by running:
+     ```sh
+     npm install
+     ```
+
+2. **Run the development server:**
+   - If your project is configured to use a development server, you can start it by running:
+     ```sh
+     npm run dev
+     ```
+
+That's it! You've successfully installed and run a Node.js application, and learned how to use npm to manage dependencies and run a development server.
