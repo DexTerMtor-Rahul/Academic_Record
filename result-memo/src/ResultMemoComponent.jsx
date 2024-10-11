@@ -114,7 +114,7 @@ const ResultMemo = () => {
           </Grid>
           <Grid size={6}>
             <Typography>
-              <strong>Specialization:</strong> {studentInfo.specialization}
+              <strong>Course:</strong> {studentInfo.specialization}
             </Typography>
           </Grid>
           <Grid size={6}>
