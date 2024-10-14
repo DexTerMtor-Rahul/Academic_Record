@@ -12,18 +12,7 @@ import {
   Box,
 } from "@mui/material";
 import Grid from "@mui/material/Grid2";
-import Logo from "./assets/logo.png";
-
-const ColoredLine = ({ color, height }) => (
-  <hr
-    style={{
-      border: 0,
-      backgroundColor: color,
-      height: height || 2,
-      width: "100%",
-    }}
-  />
-);
+import Header from "./Header";
 
 const IndividualResultMemo = () => {
   const studentInfo = {
@@ -71,24 +60,7 @@ const IndividualResultMemo = () => {
 
   return (
     <Container maxWidth="md">
-      <Box mb={2} display="flex" alignItems="center" flexDirection="column">
-        <Box display="flex" alignItems="center" mb={2}>
-          <img src={Logo} alt="NIT Warangal Logo" width={100} height={100} />
-          <Box ml={2}>
-            <Typography variant="h5" fontWeight="bold">
-              NATIONAL INSTITUTE OF TECHNOLOGY WARANGAL
-            </Typography>
-            <Typography variant="body1">Warangal, Telangana, 506004</Typography>
-            <Typography variant="body1">Website: nitw.ac.in</Typography>
-          </Box>
-        </Box>
-
-        <ColoredLine color="black" />
-        <Typography variant="h5" fontWeight="bold" mt={2}>
-          Individual Result
-        </Typography>
-      </Box>
-      <ColoredLine color="#D3D3D3" height={5} />
+      <Header resultType="individual" />
 
       <Box mb={3}>
         <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
