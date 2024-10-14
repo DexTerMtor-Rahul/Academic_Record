@@ -6,7 +6,7 @@ import ConsolidatedResult from "./ConsolidatedResultMemo";
 const App = () => {
   return (
     <div className="App">
-      {/* <IndividualResult /> */}
+      <IndividualResult />
       <ConsolidatedResult />
     </div>
   );
