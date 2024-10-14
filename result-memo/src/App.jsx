@@ -1,11 +1,13 @@
 import React from "react";
 import "./index.css";
-import ResultMemo from "./ResultMemoComponent";
+import IndividualResult from "./IndividualResultMemo";
+import ConsolidatedResult from "./ConsolidatedResultMemo";
 
 const App = () => {
   return (
     <div className="App">
-      <ResultMemo />
+      {/* <IndividualResult /> */}
+      <ConsolidatedResult />
     </div>
   );
 };
