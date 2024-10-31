@@ -1,6 +1,6 @@
 import React from "react";
 import { Typography, Box } from "@mui/material";
-import Logo from "./assets/logo.png";
+import Logo from "../../assets/logo_black.png";
 
 const ColoredLine = ({ color, height }) => (
   <hr
